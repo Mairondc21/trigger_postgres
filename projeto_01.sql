@@ -1,4 +1,3 @@
-
 CREATE MATERIALIZED VIEW sales_accumulated_monthly_mv AS
 SELECT
     EXTRACT(YEAR FROM o.order_date) AS year,

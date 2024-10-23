@@ -4,7 +4,6 @@ CREATE TABLE employees_auditoria (
     nome_novo VARCHAR(100),
     data_modificacao TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
-
 CREATE OR REPLACE FUNCTION registrar_auditoria_titulo()
 RETURNS TRIGGER AS $$
 BEGIN
